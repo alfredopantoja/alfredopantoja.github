@@ -1,6 +1,12 @@
 body {
   margin: 30px;
 }
+
+/* Header */
 #logo {
   font-family: 'Berkshire Swash', cursive;
+}
+header p.lead {
+  margin-bottom: 0;
+  font-size: 20px;
 }
