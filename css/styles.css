@@ -1,8 +1,20 @@
 body {
-  margin: 30px;
+  margin: 30px 100px;
+  
+}
+@media screen and (max-width: 699px) {
+  body {
+    margin: 30px;
+  }
 }
 
+h2 {
+  margin-bottom: 30px;
+}
 /* Header */
+header {
+  margin-bottom: 70px;
+}
 #logo {
   font-family: 'Berkshire Swash', cursive;
 }
@@ -10,3 +22,4 @@ header p.lead {
   margin-bottom: 0;
   font-size: 20px;
 }
+
